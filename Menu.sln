@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app_dulich", "app_dulich\app_dulich.csproj", "{F40A6124-5B2A-48A0-80E9-4B974D316DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F40A6124-5B2A-48A0-80E9-4B974D316DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40A6124-5B2A-48A0-80E9-4B974D316DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40A6124-5B2A-48A0-80E9-4B974D316DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40A6124-5B2A-48A0-80E9-4B974D316DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08EF8B0F-1AC2-417C-911E-D94C87C20D6C}
+	EndGlobalSection
+EndGlobal
