@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -37,10 +37,31 @@ namespace app_dulich
                         }
                     case 2:
                         {
-
+                            dv = new Hotel();
+                            dv.nhap();
+                            break;
                         }
+                    case 3:
+                        {
+                            dv = new Huongdanvien();
+                            dv.nhap();
+                            break;
+                        }
+                    case 4:
+                        {
+                            dv = new PhuongTien();
+                            dv.nhap();
+                            break;
+                        }
+                        default:
+                        {
+                            Console.WriteLine("Vui lòng nhập lại !");
+                            break;
+                        }
+
                 }
             }
         }
+
     }
 }
