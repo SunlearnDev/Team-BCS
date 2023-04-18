@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +8,14 @@ namespace app_dulich
 {
      class DichVu
     {
+        protected string id;
         protected string tendichvu;
         protected string mota;
         protected int sdt;
         protected string diachi;
         protected double giatien;
 
+        public string ID { set { this.id = value; } get { return this.id; } }
         public string Tendichvu { set { this.tendichvu = value; } get { return this.tendichvu; } }
         public string Mota { set { this.mota = value; } get { return this.mota; } }
         public double Giatien { set { this.giatien = value; } get { return this.giatien; } }
@@ -21,16 +23,33 @@ namespace app_dulich
         public string Diachi { set { this.diachi = value; } get { return this.diachi; } }
 
         public DichVu() { }
-        public DichVu(string tendichvu, string mota, int sdt, string diachi, double giatien)
-        {
+        public DichVu(string id,string tendichvu, string mota, int sdt, string diachi, double giatien)
+        {   
+            this.id = id;
             this.tendichvu=tendichvu;
             this.mota=mota;
             this.sdt=sdt;
             this.diachi=diachi;
             this.giatien=giatien;
         }
-        public virtual void nhap()
+        public virtual void Nhap()
         {
+
+            Console.Write("Nhap ID: ");
+            while (true)
+            {
+                string id = Console.ReadLine();
+            
+                if (KiemTraID(id))
+                {
+                    this.id = id;
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("ID đã tồn tại. Vui lòng nhập lại!");
+                }
+            }
             Console.Write("Nhap ten dich vu: ");
             this.tendichvu = Console.ReadLine();
             Console.Write("Nhap mo ta dich vu : ");
@@ -78,8 +97,15 @@ namespace app_dulich
             Console.Write("nhap dia chi : ");
             this.diachi=Console.ReadLine();
         }
-        public virtual void xuat()
+
+        private bool KiemTraID(string id)
         {
+            throw new NotImplementedException();
+        }
+
+        public virtual void Xuat()
+        {
+            Console.WriteLine("Id : " + this.id);
             Console.WriteLine("Dich cu : " + this.tendichvu);
             Console.WriteLine("Mo ta: "+ this.mota);
             Console.WriteLine("Gia : "+ this.Giatien);
