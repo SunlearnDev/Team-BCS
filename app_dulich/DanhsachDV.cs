@@ -14,7 +14,7 @@ namespace app_dulich
         {
             this.listaff = new Dictionary<string, DanhsachDV> ();
         }
-        public void Nhap()
+        public o void Nhap()
         {
             char a = 'y';
             while (a == 'y')
@@ -62,6 +62,89 @@ namespace app_dulich
                 }
             }
         }
+        public void Xuat()
+        {
+            Console.WriteLine("Mã Dịch Vụ | Tên | Số Chứng minh | Phụ Cấp |");
+            foreach (DanhsachDV dv in listaff.Values)
+            {
+                dv.xuat();
+            }
+        }
+        public DanhsachDV Tim()
+        {
+            Console.WriteLine("Nhap ma nv can tim:");
+            String manv = Console.ReadLine();
+            return this.listaff[id];
+        }
+        public void Xoa()
+        {
+            Console.WriteLine("Nhap ma nv can xoa:");
+            String manv = Console.ReadLine();
+            this.listaff.Remove(manv);
+        }// end Xoa()
+
+        public void sua()
+        {
+            DanhsachDV dv = this.Tim();
+            Console.WriteLine("Nhập lựa chọn của bạn: ");
+            Console.WriteLine("1. Sửa ID");
+            Console.WriteLine("2. Sửa Tên");
+            Console.WriteLine("3. Sửa  Mô Tả");
+            Console.WriteLine("4. Sửa Hotline");
+            Console.WriteLine("5. Sửa Địa chỉ");
+            Console.WriteLine("6. Sửa Giá");
+
+            Char t = 'y';
+            while (t == 'y')
+            {
+                Console.Write("Nhap lua chon cua ban: ");
+                int menu = Convert.ToInt32(Console.ReadLine());
+                switch (menu)
+                {
+                    case 1:
+                        {
+                            Console.Write("Nhập ID mới: ");
+                            String tendichvu = Console.ReadLine();
+                            break;
+                        }
+                    case 2:
+                        {
+                            Console.Write("NHập ID mới: ");
+                            String ID = Console.ReadLine();
+                            break;
+                        }
+                    case 3:
+                        {
+                            Console.Write("Nhập mô tả: ");
+                            String mota = Console.ReadLine();
+                            break;
+                        }
+                        case 4:
+                        {
+                            Console.Write("Nhập Hotline: ");
+                            String sdt = Console.ReadLine();
+                            break;
+                        }
+                        case 5:
+                        {
+                            Console.Write("Nhập Địa chỉ: ");
+                            String diachi = Console.ReadLine();
+                            break;
+                        }
+                        case 6:
+                        {
+                            Console.Write("Nhập giá: ");
+                            String giatien = Console.ReadLine();
+                            break;
+                        }
+                        Console.WriteLine("nhan y  de tiep tuc: ");
+                        t = Convert.ToChar(Console.ReadLine());
+                }
+                listaff.Add(dv.id, dv);
+            }
+        }
+
+
 
     }
 }
