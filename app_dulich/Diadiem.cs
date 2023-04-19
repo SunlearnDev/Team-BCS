@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +10,13 @@ namespace app_dulich
     {
         public Diadiem() : base() { }
         public Diadiem(string tendichvu, string mota, int sdt, string diachi, double giatien) : base() { }
-        public override void nhap() 
+        public override void Nhap() 
         {
-            base.nhap();
+            base.Nhap();
         }
-        public override void xuat()
+        public override void Xuat()
         {
-            base.xuat(); 
+            base.Xuat(); 
         }
     }
 }
