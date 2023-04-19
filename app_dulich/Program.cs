@@ -8,9 +8,7 @@ namespace app_dulich
 {
     internal class Program
     {
-        class Program
-        {
-            static daily DanhsachDV;
+            static   DanhsachDV dv;
             static void Menu()
             {
                 try
@@ -29,27 +27,27 @@ namespace app_dulich
                     {
                         case 1:
                             {
-                                DanhsachDV.Nhap();
+                            dv.Nhap();
                                 break;
                             }
                         case 2:
                             {
-                                DanhsachDV.Xuat();
+                            dv.Xuat();
                                 break;
                             }
                         case 3:
                             {
-                                DanhsachDV.Tim().Xuat();
+                            dv.Tim().Xuat();
                                 break;
                             }
                         case 4:
                             {
-                                DanhsachDV.Xoa();
+                            dv.Xoa();
                                 break;
                             }
                         case 5:
                             {
-                                DanhsachDV.sua();
+                            dv.sua();
                                 break;
                             }
 
@@ -66,7 +64,7 @@ namespace app_dulich
             }
             static void Main(string[] args)
             {
-                DanhsachDV = new daily();
+            dv = new DanhsachDV();
                 char c = 'y';
                 while (c == 'y')
                 {
@@ -79,4 +77,3 @@ namespace app_dulich
     }
 
     
-}
