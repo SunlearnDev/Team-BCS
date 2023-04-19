@@ -23,3 +23,4 @@ C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.csproj.CopyCompl
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.exe
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.pdb
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.form_dang_nhap.resources
+C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.dangKy.resources
