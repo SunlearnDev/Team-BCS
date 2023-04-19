@@ -22,3 +22,4 @@ C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\bin\Debug\MySql.Data.xml
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.csproj.CopyComplete
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.exe
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.pdb
+C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.form_dang_nhap.resources
