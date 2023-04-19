@@ -14,7 +14,7 @@ namespace app_dulich
         {
             this.listaff = new Dictionary<string, DanhsachDV> ();
         }
-        public o void Nhap()
+        public override void Nhap()
         {
             char a = 'y';
             while (a == 'y')
@@ -32,25 +32,25 @@ namespace app_dulich
                     case 1:
                         {
                             dv = new Diadiem();
-                            dv.nhap();
+                            dv.Nhap();
                             break;
                         }
                     case 2:
                         {
                             dv = new Hotel();
-                            dv.nhap();
+                            dv.Nhap();
                             break;
                         }
                     case 3:
                         {
                             dv = new Huongdanvien();
-                            dv.nhap();
+                            dv.Nhap();
                             break;
                         }
                     case 4:
                         {
                             dv = new PhuongTien();
-                            dv.nhap();
+                            dv.Nhap();
                             break;
                         }
                         default:
@@ -62,12 +62,12 @@ namespace app_dulich
                 }
             }
         }
-        public void Xuat()
+        public override void Xuat()
         {
             Console.WriteLine("Mã Dịch Vụ | Tên | Số Chứng minh | Phụ Cấp |");
             foreach (DanhsachDV dv in listaff.Values)
             {
-                dv.xuat();
+                dv.Xuat();
             }
         }
         public DanhsachDV Tim()
