@@ -69,8 +69,20 @@
     <Compile Include="form_dang_nhap.Designer.cs">
       <DependentUpon>form_dang_nhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Giaodien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giaodien.Designer.cs">
+      <DependentUpon>Giaodien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimKiem_HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimKiem_HoaDon.Designer.cs">
+      <DependentUpon>TimKiem_HoaDon.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="dangKy.resx">
       <DependentUpon>dangKy.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="form_dang_nhap.resx">
       <DependentUpon>form_dang_nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giaodien.resx">
+      <DependentUpon>Giaodien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,6 +105,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TimKiem_HoaDon.resx">
+      <DependentUpon>TimKiem_HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
