@@ -26,5 +26,10 @@ namespace tripplan
         {
 
         }
+
+        private void booking_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

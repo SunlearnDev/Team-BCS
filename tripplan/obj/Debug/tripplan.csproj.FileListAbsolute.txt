@@ -1,7 +1,6 @@
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.csproj.AssemblyReference.cache
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.csproj.SuggestedBindingRedirects.cache
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.exe.config
-C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\App_TrisPlan.Form1.resources
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.Properties.Resources.resources
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.csproj.GenerateResource.cache
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.csproj.CoreCompileInputs.cache
@@ -22,7 +21,9 @@ C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\bin\Debug\MySql.Data.xml
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.csproj.CopyComplete
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.exe
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.pdb
-C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.form_dang_nhap.resources
-C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.dangKy.resources
-C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.TrippPlans.resources
 C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.TimKiem_HoaDon.resources
+C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.booking.resources
+C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.Hotel.resources
+C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\App_TrisPlan.Form1.resources
+C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.f_Login.resources
+C:\Users\tai\Desktop\lan25\Team-BCS\tripplan\obj\Debug\tripplan.f_giaodien.resources

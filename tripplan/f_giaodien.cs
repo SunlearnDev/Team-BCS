@@ -10,24 +10,24 @@ using System.Windows.Forms;
 
 namespace tripplan
 {
-    public partial class TrippPlans : Form
+    public partial class f_giaodien : Form
     {
-        public TrippPlans()
+        public f_giaodien()
         {
             InitializeComponent();
         }
 
-        private void Giaodien_Load(object sender, EventArgs e)
+        private void dIchVụToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void danhMụcToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void báoCáoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exit_Click(object sender, EventArgs e)
         {
 
         }

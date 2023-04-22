@@ -17,7 +17,7 @@ namespace tripplan
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TimKiem_HoaDon());
+            Application.Run(new f_Login());
         }
     }
 }
