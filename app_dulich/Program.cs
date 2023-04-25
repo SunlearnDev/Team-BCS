@@ -28,6 +28,7 @@ namespace app_dulich
                         case 1:
                             {
                             dv.Nhap();
+                            Menu();
                                 break;
                             }
                         case 2:
