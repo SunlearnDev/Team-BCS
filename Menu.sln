@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app_dulich", "app_dulich\app_dulich.csproj", "{F40A6124-5B2A-48A0-80E9-4B974D316DF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tripplan", "tripplan\tripplan.csproj", "{0042ED91-3CF8-476D-B3D3-2F763A36B517}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F40A6124-5B2A-48A0-80E9-4B974D316DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40A6124-5B2A-48A0-80E9-4B974D316DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F40A6124-5B2A-48A0-80E9-4B974D316DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0042ED91-3CF8-476D-B3D3-2F763A36B517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0042ED91-3CF8-476D-B3D3-2F763A36B517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0042ED91-3CF8-476D-B3D3-2F763A36B517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0042ED91-3CF8-476D-B3D3-2F763A36B517}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
