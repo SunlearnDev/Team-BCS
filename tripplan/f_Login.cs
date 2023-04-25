@@ -8,17 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using tripplan.DAO;
 
 namespace tripplan
 {
     public partial class f_Login : Form
     {
-        MySqlConnection conn;
-        MySqlCommand cmd;
-        MySqlDataAdapter adap;
-        DataTable app;
-        
-        
+        private object dtgvAccount;
+
         public f_Login()
         {
             InitializeComponent();
@@ -26,13 +23,10 @@ namespace tripplan
         }
         void loadAccountList ()
         {
-            string strconn = "Server=localhost;Database=app_tripplanner;Port = 3306;User ID=root;Password=";
-            conn = new MySqlConnection(strconn);
-            conn.Open ();
             string query_select = "SELECT * FROM login;";
-            cmd = new MySqlCommand(query_select);
-            adap.Fill(app);
-            conn.Close ();
+            DataFo provi = new DataFo();    
+        
+
         }
         private void f_Login_Load(object sender, EventArgs e)
         {

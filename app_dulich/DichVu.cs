@@ -36,20 +36,21 @@ namespace app_dulich
         {
 
             Console.Write("Nhap ID: ");
-            while (true)
-            {
-                string id = Console.ReadLine();
+            this.id = Console.ReadLine();
+            //while (true)
+            //{
+            //    string id = Console.ReadLine();
             
-                if (KiemTraID(id))
-                {
-                    this.id = id;
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("ID đã tồn tại. Vui lòng nhập lại!");
-                }
-            }
+            //    if (KiemTraID(id))
+            //    {
+            //        this.id = id;
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("ID đã tồn tại. Vui lòng nhập lại!");
+            //    }
+           // }
             Console.Write("Nhap ten dich vu: ");
             this.tendichvu = Console.ReadLine();
             Console.Write("Nhap mo ta dich vu : ");
@@ -92,8 +93,6 @@ namespace app_dulich
                     Console.WriteLine(ex.Message);
                 }
             }
-            Console.Write("Nhap so dia thoai: ");
-            this.sdt= int.Parse(Console.ReadLine());
             Console.Write("nhap dia chi : ");
             this.diachi=Console.ReadLine();
         }

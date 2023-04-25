@@ -1,0 +1,8 @@
+C:\Users\tai\Desktop\lan25\Team-BCS\app_dulich\bin\Debug\app_dulich.exe.config
+C:\Users\tai\Desktop\lan25\Team-BCS\app_dulich\bin\Debug\app_dulich.exe
+C:\Users\tai\Desktop\lan25\Team-BCS\app_dulich\bin\Debug\app_dulich.pdb
+C:\Users\tai\Desktop\lan25\Team-BCS\app_dulich\obj\Debug\app_dulich.csproj.AssemblyReference.cache
+C:\Users\tai\Desktop\lan25\Team-BCS\app_dulich\obj\Debug\app_dulich.csproj.SuggestedBindingRedirects.cache
+C:\Users\tai\Desktop\lan25\Team-BCS\app_dulich\obj\Debug\app_dulich.csproj.CoreCompileInputs.cache
+C:\Users\tai\Desktop\lan25\Team-BCS\app_dulich\obj\Debug\app_dulich.exe
+C:\Users\tai\Desktop\lan25\Team-BCS\app_dulich\obj\Debug\app_dulich.pdb

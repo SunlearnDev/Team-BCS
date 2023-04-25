@@ -14,7 +14,7 @@ namespace app_dulich
         {
             this.listaff = new Dictionary<string, DanhsachDV> ();
         }
-        public override void Nhap()
+        public  void Nhap()
         {
             char a = 'y';
             while (a == 'y')
@@ -62,7 +62,7 @@ namespace app_dulich
                 }
             }
         }
-        public override void Xuat()
+        public  void Xuat()
         {
             Console.WriteLine("Mã Dịch Vụ | Tên | Số Chứng minh | Phụ Cấp |");
             foreach (DanhsachDV dv in listaff.Values)
